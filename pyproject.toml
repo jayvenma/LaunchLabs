@@ -1,0 +1,78 @@
+[build-system]
+requires = [
+    "setuptools>=68",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "launchlab"
+version = "0.1.0.dev0"
+description = "An open-source spacecraft engineering toolkit."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+
+authors = [
+    { name = "Jayven Ma" }
+]
+
+keywords = [
+    "space",
+    "spacecraft",
+    "aerospace",
+    "orbital-mechanics",
+    "rocket",
+    "engineering",
+    "science",
+    "simulation"
+]
+
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Education",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering",
+]
+
+dependencies = [
+    "numpy>=2.0",
+    "scipy>=1.13",
+    "matplotlib>=3.9"
+]
+
+[project.optional-dependencies]
+
+dev = [
+    "pytest",
+    "ruff",
+    "black",
+    "mypy"
+]
+
+docs = [
+    "mkdocs",
+    "mkdocs-material"
+]
+
+[tool.pytest.ini_options]
+testpaths = [
+    "tests"
+]
+
+[tool.black]
+line-length = 88
+target-version = ["py311"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+
+[tool.mypy]
+python_version = "3.11"
+warn_return_any = true
+warn_unused_configs = true
