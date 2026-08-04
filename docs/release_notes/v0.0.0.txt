@@ -1,0 +1,70 @@
+LaunchLab v0.0.0 – Repository Initialization
+
+Release Date: August 2026
+
+This release establishes the LaunchLab repository and development environment. While no engineering functionality is included yet, the project's architecture, documentation, licensing, and roadmap have been created to support future development.
+
+🎉 Highlights
+
+LaunchLab is now officially under development.
+
+This release provides the initial project scaffolding and establishes the long-term direction for an open-source spacecraft engineering toolkit.
+
+✨ Added
+Repository
+Initial GitHub repository
+Project organization and directory structure
+GitHub Project board
+Milestone roadmap (v0.0–v0.5)
+Documentation
+Initial README
+Project philosophy
+Development roadmap
+Engineering goals
+MIT License
+Development Environment
+Python package initialization
+pyproject.toml
+Basic package layout
+Git version control
+📋 Planned Next Milestone
+v0.1 – Engineering Foundation
+
+Upcoming work includes:
+
+Engineering standards
+SI unit conventions
+Physical constants
+Celestial body database
+Vector mathematics
+Numerical utilities
+Plotting utilities
+Testing framework
+Documentation
+Example programs
+⚠ Current Status
+
+LaunchLab is currently in its initialization phase.
+
+No engineering calculations or spacecraft analysis tools are included in this release.
+
+The project should currently be considered pre-alpha software intended primarily to establish the project's architecture and development workflow.
+
+📖 Project Vision
+
+LaunchLab is a long-term, open-source spacecraft engineering toolkit built to grow alongside its author's education and engineering career.
+
+The project emphasizes:
+
+Engineering correctness
+Scientific computing
+Clean software architecture
+Documentation
+Testing
+Learning through implementation
+🔖 Version Information
+Item	Value
+Version	v0.0.0
+Status	Pre-release
+License	MIT
+Python	3.11+
