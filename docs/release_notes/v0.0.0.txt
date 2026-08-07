@@ -5,7 +5,6 @@ Release Date: August 2026
 This release establishes the LaunchLab repository and development environment. While no engineering functionality is included yet, the project's architecture, documentation, licensing, and roadmap have been created to support future development.
 
 🎉 Highlights
-
 LaunchLab is now officially under development.
 
 This release provides the initial project scaffolding and establishes the long-term direction for an open-source spacecraft engineering toolkit.
@@ -27,6 +26,7 @@ Python package initialization
 pyproject.toml
 Basic package layout
 Git version control
+
 📋 Planned Next Milestone
 v0.1 – Engineering Foundation
 
@@ -51,7 +51,6 @@ No engineering calculations or spacecraft analysis tools are included in this re
 The project should currently be considered pre-alpha software intended primarily to establish the project's architecture and development workflow.
 
 📖 Project Vision
-
 LaunchLab is a long-term, open-source spacecraft engineering toolkit built to grow alongside its author's education and engineering career.
 
 The project emphasizes:
@@ -62,6 +61,7 @@ Clean software architecture
 Documentation
 Testing
 Learning through implementation
+
 🔖 Version Information
 Item	Value
 Version	v0.0.0
